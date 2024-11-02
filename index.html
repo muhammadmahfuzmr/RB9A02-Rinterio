@@ -24,7 +24,7 @@
     <title>Rinterio</title>
   </head>
   <body>
-    <header class="container mx-auto">
+    <header class="container mx-auto px-4">
       <!-- nav bar -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -82,22 +82,64 @@
             <span
               ><i
                 class="fa-solid fa-arrow-up fa-rotate-by bg-black full ml-2 rounded-full p-2"
-                style="color: #ffffff;  --fa-rotate-angle: 35deg"
+                style="color: #ffffff; --fa-rotate-angle: 35deg"
               ></i
             ></span>
           </button>
         </div>
       </div>
       <!-- -----------------banner------------- -->
-       <div class="text-center mt-10 mb-20 space-y-6">
-        <img class="mx-auto" src="assets/banner.png" alt="">
-        <h1 class="font-extrabold text-[64px] mx-32 text-[#212121]">A barn house of this design has a striking appearance</h1>
-        <p class="font-medium text-base text-[#494949] mx-72">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-        <button class="btn bg-[#ABEF5F80] font-bold text-xl rounded-full text-[#212121]">View Details 
-          <i class="fa-solid fa-arrow-up fa-rotate-by p-2 rounded-full bg-[#ABEF5F]" style="color: #000000; --fa-rotate-angle: 35deg;"></i>
+      <div class="text-center mt-10 mb-20 space-y-6">
+        <img class="mx-auto" src="assets/banner.png" alt="" />
+        <h1
+          class="font-extrabold text-[32px] md:text-[64px] md:mx-32 text-[#212121]"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="font-medium text-[14px] md:text-base text-[#494949] md:mx-72">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <button
+          class="btn w-full md:w-fit bg-[#ABEF5F80] font-bold text-xl rounded-full text-[#212121]"
+        >
+          View Details
+          <i
+            class="fa-solid fa-arrow-up fa-rotate-by p-2 rounded-full bg-[#ABEF5F]"
+            style="color: #000000; --fa-rotate-angle: 35deg"
+          ></i>
         </button>
-       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- -----------------------About Us________________ -->
+      <section class="bg-[#F4F4F4] py-24">
+<!-- ----------------about------------ -->
+ <div class="flex flex-col md:flex-row justify-between  gap-10 container mx-auto px-4">
+  <div class="space-y-6 md:w-1/2 text-center md:text-left">
+    <button class="flex mx-auto md:mx-0 gap-2 items-center py-3 px-5 rounded-full bg-[#FFFFFF]"><img src="/assets/Black Arrow.png" alt=""><span class="font-semibold text-[#494949]">About Us</span></button>
+    <h2 class="text-[#212121] font-bold text-[40px]">We design thoughtful, liveable spaces</h2>
+<p class="font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and 
+  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+  <div class="p-6 bg-white flex gap-6 rounded-xl">
+    <img src="/assets/commercial.png" alt="">
+    <div>
+      <h3 class="font-extrabold text-2xl text-[#494949]">Commercial</h3>
+      <p class="text-[#494949] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+  <div class="p-6 bg-white flex gap-6 rounded-xl">
+    <img src="/assets/residential.png" alt="">
+    <div>
+      <h3 class="font-extrabold text-2xl text-[#494949]">Residential</h3>
+      <p class="text-[#494949] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+  </div>
+  <div class="md:w-1/2"><img class="md:w-full" src="/assets/Rectangle.png" alt=""></div>
+ </div>
+
+      </section>
+    </main>
   </body>
 </html>
