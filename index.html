@@ -63,15 +63,21 @@
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li class="hover:text-green-800 duration-[5000]"><a>Home</a></li>
-
-            <li><a>Service</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
+            <li class="hover:text-green-800 duration-[5000] hover:font-bold"><a>Home</a></li>
+            <li class="hover:text-green-800 duration-[5000] hover:font-bold"><a>Service</a></li>
+            <li class="hover:text-green-800 duration-[5000] hover:font-bold"><a>Portfolio</a></li>
+            <li class="hover:text-green-800 duration-[5000] hover:font-bold"><a>Blogs</a></li>
+            <li class="hover:text-green-800 duration-[5000] hover:font-bold"><a>Contact Us</a></li>
           </ul>
         </div>
         <div class="navbar-end flex gap-8 items-center">
+         
+          <i class="fa-solid fa-magnifying-glass bg-[#FFFFFF] rounded-full border-[0.1px] border-[#E9E9E9] p-2 text-[#737373] text-[18px] invisible md:visible"></i>
+          <i class="fa-solid fa-cart-shopping  bg-[#FFFFFF] rounded-full border-[0.1px] border-[#E9E9E9] p-2 text-[#737373] text-[18px] invisible md:visible"></i>
+          <button class="bg-[#ABEF5F] p-4  rounded-l-full text-xl font-extrabold text-[#1C1C1C] hidden lg:flex rounded-r-full">
+            Book Consult
+            <img  class=" bg-[#1C1C1C] rounded-full ml-2  w-8 h-8" src="assets/arrow-up-right-01.png" alt="">
+          </button>
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
@@ -91,21 +97,15 @@
             </div>
             <ul
               tabindex="0"
-              class="menu font-extrabold text-base text-[#737373] menu-sm dropdown-content content-end ml-0 bg-base-100 rounded-box -left-20 z-[1] mt-3 w-32 p-2 shadow"
+              class="menu font-extrabold text-base text-[#737373]  menu-sm dropdown-content content-end ml-0 bg-base-100 rounded-box -left-20 z-[1] mt-3 w-32 p-2 shadow"
             >
-              <li class="hover:text-green-800"><a>Home</a></li>
-              <li class="hover:text-[#494949]"><a>Service</a></li>
-              <li class="hover:text-[#494949]"><a>Portfolio</a></li>
-              <li class="hover:text-[#494949]"><a>Blogs</a></li>
-              <li class="hover:text-[#494949]"><a>Contact Us</a></li>
+              <li class="hover:text-green-800 duration-1000 hover:font-bold"><a>Home</a></li>
+              <li class="hover:text-[#494949] duration-1000 hover:font-bold"><a>Service</a></li>
+              <li class="hover:text-[#494949] duration-1000 hover:font-bold"><a>Portfolio</a></li>
+              <li class="hover:text-[#494949] duration-1000 hover:font-bold"><a>Blogs</a></li>
+              <li class="hover:text-[#494949] duration-1000 hover:font-bold"><a>Contact Us</a></li>
             </ul>
           </div>
-          <i class="fa-solid fa-magnifying-glass text-2xl hidden"></i>
-          <i class="fa-solid fa-cart-shopping text-2xl hidden"></i>
-          <button class="bg-[#ABEF5F] p-4  rounded-l-full text-xl font-extrabold text-[#1C1C1C] hidden lg:flex rounded-r-full">
-            Book Consult
-            <img  class=" bg-[#1C1C1C] rounded-full ml-2  w-8 h-8" src="assets/arrow-up-right-01.png" alt="">
-          </button>
         </div>
       </div>
       <!-- -----------------banner------------- -->
@@ -237,10 +237,16 @@
        </section>
        <!-- ----------discuss next projects section---------- -->
        <section 
-       class="bg-cover  bg-no-repeat"
+       class="bg-cover py-24  bg-no-repeat"
      style="background-image: url('/assets/bg.jpg');"
        >
-        <h1>hi</h1>
+       <div class="text-center mb-6">
+        <button class="flex mx-auto gap-2 items-center py-3 px-5 rounded-full bg-[#ABEF5F33]"><img src="assets/Black Arrow.png" alt=""><span class="font-semibold text-[#494949]">Let’s Connect</span></button>
+        <h2 class="text-[#212121] font-bold my-5 text-[40px]">Let’s Discuss Next Project</h2>
+        <p class="font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and 
+      modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+      
 
        </section>
        <footer class="bg-[#1C1C1C] py-24">
