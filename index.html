@@ -28,7 +28,7 @@
       <!-- nav bar -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
-          <div class="dropdown">
+          <!-- <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@
               <li class="hover:text-[#494949]"><a>Blogs</a></li>
               <li class="hover:text-[#494949]"><a>Contact Us</a></li>
             </ul>
-          </div>
+          </div> -->
           <div class="flex items-center btn btn-ghost font-extrabold">
             <img  class="-rotate-45 p-2 bg-[#ABEF5F] rounded-full  w-8 h-8" src="assets/Black Arrow.png" alt="">
             <a class="text-3xl font-manrope"> Rinterio</a>
@@ -72,16 +72,39 @@
           </ul>
         </div>
         <div class="navbar-end flex gap-8 items-center">
-          <i class="fa-solid fa-magnifying-glass text-2xl"></i>
-          <i class="fa-solid fa-cart-shopping text-2xl"></i>
-          <button class="bg-[#ABEF5F] p-3 rounded-l-full rounded-r-full">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu font-extrabold text-base text-[#737373] menu-sm dropdown-content content-end ml-0 bg-base-100 rounded-box -left-20 z-[1] mt-3 w-32 p-2 shadow"
+            >
+              <li class="hover:text-green-800"><a>Home</a></li>
+              <li class="hover:text-[#494949]"><a>Service</a></li>
+              <li class="hover:text-[#494949]"><a>Portfolio</a></li>
+              <li class="hover:text-[#494949]"><a>Blogs</a></li>
+              <li class="hover:text-[#494949]"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-magnifying-glass text-2xl hidden"></i>
+          <i class="fa-solid fa-cart-shopping text-2xl hidden"></i>
+          <button class="bg-[#ABEF5F] p-4  rounded-l-full text-xl font-extrabold text-[#1C1C1C] hidden lg:flex rounded-r-full">
             Book Consult
-            <span
-              ><i
-                class="fa-solid fa-arrow-up fa-rotate-by bg-black full ml-2 rounded-full p-2"
-                style="color: #ffffff; --fa-rotate-angle: 35deg"
-              ></i
-            ></span>
+            <img  class=" bg-[#1C1C1C] rounded-full ml-2  w-8 h-8" src="assets/arrow-up-right-01.png" alt="">
           </button>
         </div>
       </div>
@@ -220,6 +243,24 @@
         <h1>hi</h1>
 
        </section>
+       <footer class="bg-[#1C1C1C] py-24">
+        <div class="flex items-center justify-center  font-extrabold ">
+          <img  class="-rotate-45 p-2 bg-[#ABEF5F] rounded-full  w-8 h-8" src="assets/Black Arrow.png" alt="">
+          <a class="text-3xl text-[#E9E9E9] font-manrope"> Rinterio</a>
+        </div>
+        <p class="text-center my-10 text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      <ul class="text-base  font-normal text-[#E9E9E9] flex flex-col md:flex-row  items-center justify-center gap-10 md:gap-20">
+        <li><a>Home</a></li>
+        <li><a>Service</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a>Contact Us</a></li>
+      </ul>
+      <button class="bg-[#ABEF5F] p-4 mt-10 mx-auto  rounded-l-full text-xl font-extrabold text-[#1C1C1C] flex rounded-r-full">
+        Book Consult
+        <img  class=" bg-[#1C1C1C] rounded-full ml-2  w-8 h-8" src="assets/arrow-up-right-01.png" alt="">
+      </button>
+      </footer>
     </main>
   </body>
 </html>
